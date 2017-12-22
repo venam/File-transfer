@@ -1,0 +1,23 @@
+{
+        "storages": [
+                {
+                        "ip": "127.0.0.1",
+                        "port": "12000",
+                        "enc": "~:4;^1:1;ror3:4;rol1:1"
+                },
+                {
+                        "ip": "127.0.0.1",
+                        "port": "12000",
+                        "enc": "~:4;^1:1;rol1:1"
+                }
+        ],
+        "file_transfer": {
+            "ip": "127.0.0.1",
+            "udp_port": "16001",
+            "tcp_port": "17001",
+            "buffer_size": 256
+        },
+        "timeout": 6,
+        "log_file": "c2.logs",
+        "debug": true
+}
